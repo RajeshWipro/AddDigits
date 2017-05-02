@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         let c = Add(a: one!,b: two!)
     
-        let result = String(c)
+        let result = Abc(c)
         
         lblResult.text = "Result = \(result)"
         
