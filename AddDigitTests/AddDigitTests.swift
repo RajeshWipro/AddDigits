@@ -21,9 +21,20 @@ class AddDigitTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testAdd() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let v = ViewController()
+        XCTAssertEqual(v.Add(a: 5, b: 3),8)
+    }
+    
+    func testSub() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let v = ViewController()
+        XCTAssertEqual(v.Sub(a: 5, b: 3),2)
     }
     
     func testPerformanceExample() {
